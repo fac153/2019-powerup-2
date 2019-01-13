@@ -8,15 +8,15 @@ However, the .git directory is not copied, and therefore any changes are not rel
 
 These steps add the locally modified files to a new remote repository:
 
-git init
-git remote add origin <path/to/repo>
-git fetch
-git pull origin
+git init <br>
+git remote add origin <path/to/repo> <br>
+git fetch <br>
+git pull origin <br>
 
-git add <files to add>
-git commit -m "commit message"
+git add file1.cpp ... etc  <br>
+git commit -m "commit message" <br>
 
-git push --set-upstream origin master
+git push --set-upstream origin master <br>
 
 ## CTRE libraries
 CTRE libraries are found here: C:\Users\Public\frc2019\maven\com\ctre\phoenix
