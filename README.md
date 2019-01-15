@@ -25,3 +25,13 @@ When the **Manage Vendor Libraries** step is performed, these libraries are expa
 - build/tmp/expandedArchives
 
 If the CTRE libraries are not expanded, then the build will fail with "No such file" errors.
+
+## Linux build issue:
+**undefined reference to symbol 'HAL_Report'**
+```
+> Task :linkFrcUserProgramLinuxx86-64DebugExecutable FAILED
+/usr/bin/ld: /home/raven3/development/2019-powerup-2/build/tmp/expandedArchives/wpilibc-cpp-2019.1.1-linuxx86-64debug.zi
+p_b5ee0a5c71aefcaf2253eeecb8d95603/linux/x86-64/shared/libwpilibcd.so: undefined reference to symbol 'HAL_Report'
+/home/raven3/development/2019-powerup-2/build/tmp/expandedArchives/hal-cpp-2019.1.1-linuxx86-64debug.zip_0abaf7b418796dc825166bbbc9d08299/linux/x86-64/shared/libwpiHald.so: error adding symbols: DSO missing from command line
+collect2: error: ld returned 1 exit status
+```
