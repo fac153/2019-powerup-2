@@ -1,7 +1,7 @@
 #ifndef Arm_H
 #define Arm_H
 
-#include <frc/Commands/Subsystem.h>
+#include <frc/commands/Subsystem.h>
 #include "frc/WPILib.h"
 
 class Arm : public frc::Subsystem {

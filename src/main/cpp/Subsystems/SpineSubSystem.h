@@ -8,7 +8,7 @@
 #ifndef SRC_SUBSYSTEMS_SPINESUBSYSTEM_H_
 #define SRC_SUBSYSTEMS_SPINESUBSYSTEM_H_
 
-#include <frc/Commands/Subsystem.h>
+#include <frc/commands/Subsystem.h>
 #include "frc/WPILib.h"
 
 class SpineSubSystem : public frc::Subsystem  {

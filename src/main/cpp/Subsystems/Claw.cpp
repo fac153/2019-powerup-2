@@ -9,7 +9,7 @@
 #include "RobotMap.h"
 #include "Robot.h"
 #include "frc/WPILib.h"
-#include "frc/SmartDashboard/Sendable.h"
+#include "frc/smartdashboard/Sendable.h"
 #include "ctre/phoenix/motorcontrol/can/WPI_TalonSRX.h"
 
 Claw::Claw() : Subsystem("Claw"){

@@ -8,7 +8,7 @@
 #ifndef SRC_COMMANDS_OPENCLAWGROUP_H_
 #define SRC_COMMANDS_OPENCLAWGROUP_H_
 
-#include <frc/Commands/CommandGroup.h>
+#include <frc/commands/CommandGroup.h>
 #include "frc/WPILib.h"
 
 class OpenClawGroup : public frc::CommandGroup {

@@ -1,7 +1,7 @@
 #ifndef CrabWalkGroup_H
 #define CrabWalkGroup_H
 
-#include <frc/Commands/CommandGroup.h>
+#include <frc/commands/CommandGroup.h>
 #include <frc/WPILib.h>
 
 class CrabWalkGroup : public frc::CommandGroup {

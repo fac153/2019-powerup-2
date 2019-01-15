@@ -13,7 +13,7 @@
 
 #include "RobotMap.h"
 #include "Robot.h"
-#include "frc/SmartDashboard/Sendable.h"
+#include "frc/smartdashboard/Sendable.h"
 #include "frc/Encoder.h"
 
 //#include "ctre/phoenix/motorcontrol/can/WPI_TalonSRX.h"

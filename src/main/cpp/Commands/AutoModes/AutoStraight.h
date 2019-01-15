@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include <frc/Commands/CommandGroup.h>
+#include <frc/commands/CommandGroup.h>
 
 class AutoStraight : public frc::CommandGroup {
 public:

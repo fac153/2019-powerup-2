@@ -9,7 +9,7 @@
 #define _ROBOT_H_
 
 #include "frc/WPILib.h"
-#include "Commands/Command.h"
+#include "frc/commands/Command.h"
 #include "RobotMap.h"
 // Vision includes
 #include <thread>

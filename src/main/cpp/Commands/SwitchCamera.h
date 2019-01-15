@@ -9,7 +9,7 @@
 #define SRC_COMMANDS_SWITCHCAMERA_H_
 #include "Robot.h"
 #include "RobotMap.h"
-#include "WPILib.h"
+#include "frc/WPILib.h"
 
 class SwitchCamera :public frc::Command {
 public:

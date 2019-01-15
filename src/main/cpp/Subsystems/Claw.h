@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include <frc/Commands/Subsystem.h>
+#include <frc/commands/Subsystem.h>
 #include "frc/WPILib.h"
 
 class Claw : public frc::Subsystem {

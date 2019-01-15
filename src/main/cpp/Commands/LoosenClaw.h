@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include <frc/Commands/Command.h>
+#include <frc/commands/Command.h>
 #include "frc/WPILib.h"
 #include "Robot.h"
 #include "RobotMap.h"

@@ -8,7 +8,7 @@
 #ifndef SRC_COMMANDS_CLOSECLAWGROUP_H_
 #define SRC_COMMANDS_CLOSECLAWGROUP_H_
 
-#include <frc/Commands/CommandGroup.h>
+#include <frc/commands/CommandGroup.h>
 #include "frc/WPILib.h"
 
 class CloseClawGroup : public frc::CommandGroup {

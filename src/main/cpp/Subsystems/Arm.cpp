@@ -3,8 +3,8 @@
 #include "RobotMap.h"
 #include "Robot.h"
 #include "frc/WPILib.h"
-#include "frc/SmartDashboard/Sendable.h"
-#include "ctre/phoenix/MotorControl/CAN/WPI_TalonSRX.h"
+#include "frc/smartdashboard/Sendable.h"
+#include "ctre/phoenix/motorcontrol/can/WPI_TalonSRX.h"
 /* The arm subsystem deals with the 2 PWM arm motors and the 1 CAN WPI_TalonSRX claw motor.
  * They are defined as armMotor1, armMotor2 and clawMotor respectively.
  * There is only one encoder, armEncoder and one limit switch, bottomshoulderSwitch.
